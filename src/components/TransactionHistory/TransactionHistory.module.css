@@ -1,0 +1,28 @@
+.table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+.th,
+.td {
+  border: 3px solid black;
+  width: 200px;
+  padding: 5px;
+}
+
+.th {
+  background-color: #2f2f2f;
+  color: aliceblue;
+}
+
+.tr:nth-child(2n) {
+  background-color: #c5c5c5;
+}
+
+.td:first-child {
+  text-indent: 30%;
+}
+
+.td:not(:first-child) {
+  text-align: center;
+}

@@ -1,0 +1,65 @@
+.profileContainer {
+  width: fit-content;
+  height: fit-content;
+  border: 3px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px auto;
+}
+
+.userInfoContainer {
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userImg {
+  border-radius: 50%;
+  background-color: rgb(54, 54, 54);
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.userName {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.additionalInfo {
+  font-size: 18px;
+  color: rgb(110, 110, 110);
+}
+
+.statsList {
+  display: flex;
+  justify-content: center;
+}
+
+.statsListItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-top: 3px solid rgb(150, 150, 150);
+  width: 100px;
+  height: fit-content;
+  background-color: #d1d1d1;
+}
+
+.statsListItem:nth-child(2) {
+  border-left: 3px solid rgb(150, 150, 150);
+  border-right: 3px solid rgb(150, 150, 150);
+}
+
+.statsListItemKey {
+  font-size: 18px;
+}
+
+.statsListItemValue {
+  font-size: 18px;
+  font-weight: 700;
+}
